@@ -1,0 +1,103 @@
+body {
+    background-color: #0d0216;
+    color: #e0d0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.logo {
+    color: #a855f7;
+    text-shadow: 0 0 15px #7c3aed;
+    font-size: 2.5rem;
+}
+
+.slogan {
+    font-style: italic;
+    color: #9333ea;
+    margin-bottom: 30px;
+}
+
+.registration-form {
+    background: #1e1b4b;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #4c1d95;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.input-group input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #7c3aed;
+    background: #2e1065;
+    color: white;
+}
+
+button {
+    background: linear-gradient(45deg, #7c3aed, #9333ea);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #7c3aed;
+}
+
+/* Desain Kartu Intro */
+.card-design {
+    margin: 30px auto;
+    width: 300px;
+    height: 180px;
+    background: linear-gradient(135deg, #2e1065 0%, #0d0216 100%);
+    border: 2px solid #a855f7;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: bold;
+    border-bottom: 1px solid #a855f7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+.card-status {
+    color: #22c55e;
+    font-weight: bold;
+    font-size: 0.7rem !important;
+    margin-top: 15px !important;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.hidden { display: none; }
